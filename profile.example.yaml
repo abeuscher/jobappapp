@@ -1,0 +1,18 @@
+# Canonical, verbatim values for mechanical form fields (spec §3.1).
+# Single source of truth — the model never generates these.
+# Copy to profile.yaml (gitignored if it contains data you don't want committed).
+identity:
+  full_name: Jane Doe
+  email: jane@example.com
+  phone: "+1 555 555 5555"
+location: Portland, OR
+links:
+  linkedin: https://www.linkedin.com/in/janedoe
+  github: https://github.com/janedoe
+  portfolio: https://janedoe.dev
+work_authorization: Authorized to work in the US; no sponsorship required
+# Optional; used only where a field requires it.
+compensation_expectation: ""
+# Voluntary; your choice to fill or decline per field. Left for manual entry
+# at the review gate by default — dropdown options vary per company.
+eeo_self_id: {}

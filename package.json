@@ -1,0 +1,22 @@
+{
+  "name": "jobappapp",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Job application automation system: queue -> ingest -> tailor -> fill -> human review -> submit -> log",
+  "type": "module",
+  "scripts": {
+    "app": "tsx src/cli.ts",
+    "typecheck": "tsc --noEmit",
+    "test": "node --import tsx --test test/*.test.ts"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.112.3",
+    "playwright": "^1.56.1",
+    "yaml": "^2.8.1"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3"
+  }
+}

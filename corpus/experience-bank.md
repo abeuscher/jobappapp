@@ -56,7 +56,8 @@ stand behind verbatim.
 - Coordinated cross-timezone workflows and ran code reviews.
 
 ### Technical angle
-- Built marketing sites on Contentstack's own headless CMS with Gatsby.
+- Built marketing sites on Contentstack's own headless CMS with Gatsby (JAMstack).
+- Team was eight developers at its largest (per 2020-era cover letter).
 
 ## Senior Web Developer, Dynamic Signal — 2017–2021
 
@@ -72,6 +73,7 @@ stand behind verbatim.
 ### Technical angle
 - Full-stack development (primarily PHP and JavaScript) for game-title sites and web properties; coordinated hosting of third-party applications within the data center.
 - Worked on telemetry, helped coordinate a migration to AWS, and drove adoption of modern source control and continuous deployment in the department.
+- Managed an overhaul of the web department from disparate properties to a single centralized-CMS system (REST, Gulp, vanilla JS, LEMP), brought development in-house on a headless CMS, and built end-to-end continuous deployment with DevOps — the system integrated with 2K's games as well as their websites.
 
 ### Leadership angle
 - Supervised a junior developer and coordinated with cross-functional teams and site stakeholders; focus on security, localization, and GDPR/CCPA compliance.

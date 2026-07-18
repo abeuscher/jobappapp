@@ -3,7 +3,7 @@
 # Alex Beuscher
 ### AI Engineer · LLM Application Developer
 
-Amherst, MA · alexbeuscher@gmail.com · [phone] · alexbeuscher.com · github.com/abeuscher · linkedin.com/in/alex-beuscher-8314157
+Amherst, MA · alexbeuscher@gmail.com · 617 359 6971 · alexbeuscher.com · github.com/abeuscher · linkedin.com/in/alex-beuscher-8314157
 
 ---
 

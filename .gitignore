@@ -1,6 +1,3 @@
 node_modules/
-# Personal data — commit these only if you're comfortable having them in git.
-profile.yaml
 applications.log
-resumes/*.pdf
 .env

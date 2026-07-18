@@ -1,6 +1,6 @@
 import path from "node:path";
-import { chromium } from "playwright";
 import { detectAdapter } from "./ats/index.js";
+import { launchChromium } from "./browser.js";
 import { PATHS, listResumeVariants, loadProfile } from "./config.js";
 import { runReviewGate } from "./review/server.js";
 import {
@@ -91,7 +91,7 @@ export async function processEntry(entry: QueueEntry, opts: { dryRun?: boolean }
     const adapter = detectAdapter(entry.url)!;
 
     console.log(`[3/5] Fill: opening browser (headed — you can intervene at any time)…`);
-    const browser = await chromium.launch({ headless: false });
+    const browser = await launchChromium({ headless: false });
     const page = await browser.newPage();
     try {
       const filledForm = await adapter.fillForm(page, {
